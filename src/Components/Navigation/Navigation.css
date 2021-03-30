@@ -1,0 +1,19 @@
+.navigation-container {
+  height: 100%;
+  width: 15%;
+  max-width: 20%;
+}
+
+.navigation-list {
+  list-style-type: none;
+  margin: auto;
+}
+
+.navigation-list li {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navigation-list li:hover {
+  cursor: pointer;
+}

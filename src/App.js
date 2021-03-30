@@ -1,7 +1,16 @@
+import { Provider } from "react-redux";
+import Wrapper from "./Components/Wrapper/Wrapper";
+
+import store from "./redux/store/store";
+
 import "./App.css";
 
 function App() {
-  return <div>Hello front end</div>;
+  return (
+    <Provider store={store}>
+      <Wrapper />
+    </Provider>
+  );
 }
 
 export default App;
